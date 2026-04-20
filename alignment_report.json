@@ -1,0 +1,142 @@
+{
+  "train": {
+    "split": "train",
+    "paths": {
+      "csv": "C:\\Users\\jnami\\Downloads\\Compressed\\kartik\\how2sign_train.csv",
+      "keypoints": "C:\\Users\\jnami\\Downloads\\Compressed\\kartik\\train_2D_keypoints\\openpose_output\\json",
+      "videos": "C:\\Users\\jnami\\Downloads\\Compressed\\kartik\\train_rgb_front_clips\\raw_videos"
+    },
+    "counts": {
+      "rows": 31165,
+      "csv_unique": 31165,
+      "csv_duplicates": 0,
+      "kp_unique": 31047,
+      "vid_unique": 31047,
+      "csv_missing_kp": 118,
+      "kp_orphans": 0,
+      "csv_missing_vid": 118,
+      "vid_orphans": 0,
+      "kp_missing_vid": 0,
+      "vid_missing_kp": 0
+    },
+    "samples": {
+      "csv_missing_kp": [
+        "-b44ieHORm4_8-5-rgb_front",
+        "006DXpJ9erw_8-5-rgb_front",
+        "08JotxFsA4Y_11-5-rgb_front",
+        "09KiqMdCSKc_22-8-rgb_front",
+        "0E4mKYwAhOs_8-8-rgb_front",
+        "0Esq_TAc-1Y_19-5-rgb_front",
+        "0Esq_TAc-1Y_20-5-rgb_front",
+        "0Esq_TAc-1Y_21-5-rgb_front",
+        "0Esq_TAc-1Y_22-5-rgb_front",
+        "0Esq_TAc-1Y_23-5-rgb_front"
+      ],
+      "kp_orphans": [],
+      "csv_missing_vid": [
+        "-b44ieHORm4_8-5-rgb_front",
+        "006DXpJ9erw_8-5-rgb_front",
+        "08JotxFsA4Y_11-5-rgb_front",
+        "09KiqMdCSKc_22-8-rgb_front",
+        "0E4mKYwAhOs_8-8-rgb_front",
+        "0Esq_TAc-1Y_19-5-rgb_front",
+        "0Esq_TAc-1Y_20-5-rgb_front",
+        "0Esq_TAc-1Y_21-5-rgb_front",
+        "0Esq_TAc-1Y_22-5-rgb_front",
+        "0Esq_TAc-1Y_23-5-rgb_front"
+      ],
+      "vid_orphans": [],
+      "kp_missing_vid": [],
+      "vid_missing_kp": []
+    },
+    "all_modalities_aligned": false
+  },
+  "val": {
+    "split": "val",
+    "paths": {
+      "csv": "C:\\Users\\jnami\\Downloads\\Compressed\\kartik\\how2sign_val.csv",
+      "keypoints": "C:\\Users\\jnami\\Downloads\\Compressed\\kartik\\val_2D_keypoints\\openpose_output\\json",
+      "videos": "C:\\Users\\jnami\\Downloads\\Compressed\\kartik\\val_rgb_front_clips\\raw_videos"
+    },
+    "counts": {
+      "rows": 1741,
+      "csv_unique": 1741,
+      "csv_duplicates": 0,
+      "kp_unique": 1739,
+      "vid_unique": 1739,
+      "csv_missing_kp": 2,
+      "kp_orphans": 0,
+      "csv_missing_vid": 2,
+      "vid_orphans": 0,
+      "kp_missing_vid": 0,
+      "vid_missing_kp": 0
+    },
+    "samples": {
+      "csv_missing_kp": [
+        "eY32ru3Nstc_20-8-rgb_front",
+        "fE6xxSbjVV8_12-8-rgb_front"
+      ],
+      "kp_orphans": [],
+      "csv_missing_vid": [
+        "eY32ru3Nstc_20-8-rgb_front",
+        "fE6xxSbjVV8_12-8-rgb_front"
+      ],
+      "vid_orphans": [],
+      "kp_missing_vid": [],
+      "vid_missing_kp": []
+    },
+    "all_modalities_aligned": false
+  },
+  "test": {
+    "split": "test",
+    "paths": {
+      "csv": "C:\\Users\\jnami\\Downloads\\Compressed\\kartik\\how2sign_test.csv",
+      "keypoints": "C:\\Users\\jnami\\Downloads\\Compressed\\kartik\\test_2D_keypoints\\openpose_output\\json",
+      "videos": "C:\\Users\\jnami\\Downloads\\Compressed\\kartik\\test_rgb_front_clips\\raw_videos"
+    },
+    "counts": {
+      "rows": 2357,
+      "csv_unique": 2357,
+      "csv_duplicates": 0,
+      "kp_unique": 2343,
+      "vid_unique": 2343,
+      "csv_missing_kp": 14,
+      "kp_orphans": 0,
+      "csv_missing_vid": 14,
+      "vid_orphans": 0,
+      "kp_missing_vid": 0,
+      "vid_missing_kp": 0
+    },
+    "samples": {
+      "csv_missing_kp": [
+        "G23JltC2N8g_5-5-rgb_front",
+        "G3GcPpidwxk_22-5-rgb_front",
+        "_fZbAxSSbX4_27-5-rgb_front",
+        "_fZbAxSSbX4_28-5-rgb_front",
+        "_fZbAxSSbX4_29-5-rgb_front",
+        "fZq8wTAYtmw_10-5-rgb_front",
+        "g0yUlOaqL6k_17-3-rgb_front",
+        "g0yUlOaqL6k_18-3-rgb_front",
+        "g0yUlOaqL6k_19-3-rgb_front",
+        "g0yUlOaqL6k_20-3-rgb_front"
+      ],
+      "kp_orphans": [],
+      "csv_missing_vid": [
+        "G23JltC2N8g_5-5-rgb_front",
+        "G3GcPpidwxk_22-5-rgb_front",
+        "_fZbAxSSbX4_27-5-rgb_front",
+        "_fZbAxSSbX4_28-5-rgb_front",
+        "_fZbAxSSbX4_29-5-rgb_front",
+        "fZq8wTAYtmw_10-5-rgb_front",
+        "g0yUlOaqL6k_17-3-rgb_front",
+        "g0yUlOaqL6k_18-3-rgb_front",
+        "g0yUlOaqL6k_19-3-rgb_front",
+        "g0yUlOaqL6k_20-3-rgb_front"
+      ],
+      "vid_orphans": [],
+      "kp_missing_vid": [],
+      "vid_missing_kp": []
+    },
+    "all_modalities_aligned": false
+  }
+}
